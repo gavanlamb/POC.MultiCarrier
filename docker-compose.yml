@@ -1,0 +1,14 @@
+﻿version: '3.6'
+services:
+  api:
+    container_name: config-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: api
+      args:
+        BUILD_NUMBER: 1.0.0.1
+    ports:
+      -   7110:80
+    environment:
+      DOTNET_ENVIRONMENT: Development
