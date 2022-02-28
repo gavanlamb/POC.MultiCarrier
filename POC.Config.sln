@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4E61F15-0DA7-46A5-8C73-6A555497D207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.Config", "src\POC.Config\POC.Config.csproj", "{114657E3-7FE4-4ABD-9EB8-E12F96184B18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.Config.Api", "src\POC.Config.Api\POC.Config.Api.csproj", "{114657E3-7FE4-4ABD-9EB8-E12F96184B18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
